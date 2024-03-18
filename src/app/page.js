@@ -2,8 +2,8 @@ import About from "@/components/About/About";
 
 export default function Home() {
   return (
-    <div>
-      <About/>
-    </div>
+    <main>
+      <div>Hello GDSC</div>
+    </main>
   );
 }
