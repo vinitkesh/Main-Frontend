@@ -1,0 +1,132 @@
+.ExperienceCard{
+    --card_color: rgb(65, 65, 65);
+}
+
+.ExperienceCard{
+    height: 360px;
+    width: 560px;
+
+    display: flex;
+    flex-direction: row;
+    
+    margin: 0;
+    padding: 0;
+
+    background: linear-gradient(180deg, rgba(217, 217, 217, 0.02) 0%, rgba(17, 17, 17, 0.43) 100%);
+    border-radius: 20px 50px 20px 20px;
+
+    z-index: 1;
+
+
+}
+
+.box1{
+    margin: 0;
+    padding: 0;
+
+    height:inherit;
+    width: 460px;
+
+    z-index: -1;
+    
+
+}
+.box2{
+    position: absolute;
+    
+    align-self:flex-end;
+    justify-self:baseline;
+
+    height: 260px;
+    width: inherit;
+
+    border: 1px solid rgba(90, 90, 90, 1);
+
+    box-shadow: 0px 0px 8px 0px rgba(255, 255, 255, 0.3);
+
+    z-index: -2;
+    
+}
+
+.box1, .box2{
+
+    position: absolute;
+    background: var(--card_color);
+
+
+    border-radius: 20px ;
+
+    border: 1px solid rgba(90, 90, 90, 1);
+
+}
+
+.box11{
+    margin: 0;
+    padding: 0;
+
+    height:inherit;
+    width: 460px;
+
+    position: absolute;
+
+    background: transparent;
+
+    background: var(--card_color);
+
+    border-radius: 20px;
+
+    z-index: -1;
+
+
+
+}
+
+.circle{
+    position: relative;
+
+    top: 0px;
+    left: 480px;
+
+    height: 80px;
+    width: 80px;
+
+    background: var(--card_color);
+
+    box-shadow: 0px 0px 8px 0px rgba(255, 255, 255, 0.3);
+    
+    border: 1px solid rgba(90, 90, 90, 1);
+
+    border-radius: 50%;
+    z-index: 1;
+
+    background: linear-gradient(180deg, rgba(217, 217, 217, 0.12) 0%, rgba(115, 115, 115, 0.13) 100%);
+    border: 1px solid rgba(90, 90, 90, 1);
+    box-shadow: 0px 0px 8px 0px rgba(255, 255, 255, 0.3);
+
+
+
+}
+
+.circle2{
+    position: relative;
+
+    top: 0px;
+    left: 380px;
+
+    height: 100px;
+    width: 100px;
+
+    background: transparent;
+
+    box-shadow: 0px 0px 8px 0px rgba(255, 255, 255, 0.3);
+
+
+    border-radius: 50%;
+    z-index: -1;
+
+    border-bottom-left-radius: 50x;
+    box-shadow: -50px 50px 0 0 var(--card_color);
+
+    
+
+}

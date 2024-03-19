@@ -12,7 +12,8 @@
 }
 
 body {
-  background-color: white;
+  background: rgba(41, 41, 41, 1);
+
 }
 
 @layer utilities {
