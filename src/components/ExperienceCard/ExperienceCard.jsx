@@ -3,11 +3,19 @@
 import style from "./ExperienceCard.module.css";
 import React from 'react';
 
-export const ExperienceCard = ({ name, ctcNum, positionData, positionData2, image, companyImage }) => {
+import Image from "next/image";
+
+import { Stars } from "../Stars/Stars";
+
+import arrow from "../../../public/Arrow_experience.svg";
+
+export const ExperienceCard = ({ name, stars,ctcNum, positionData, positionData2, image, companyImage }) => {
     return (
         <div className={style.ExperienceCard}>
+            
             <div className={style.box1}></div>
             <div className={style.box11}>
+                <Stars x={stars} />
                 <div className={style.name_company}>
                     <div className={style.img_div}>
                         <img src={image} alt="Avatar" className={style.img} />
@@ -43,7 +51,9 @@ export const ExperienceCard = ({ name, ctcNum, positionData, positionData2, imag
                 </div>
             </div>
             <div className={style.box2}></div>
-            <div className={style.circle}></div>
+            <a className={style.circle} href={"https://www.google.com/"}>
+                <Image src={arrow} alt= "arrow" className={style.arrow}/>
+            </a>
             <div className={style.circle2}></div>
         </div>
     );
