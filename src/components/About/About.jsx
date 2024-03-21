@@ -26,7 +26,7 @@ export default function About() {
         <div className="bg-[#292929] pb-20 min-h-screen w-full h-full flex justify-center items-center ">
             <div className="  w-[90%] lg:w-screen max-w-[110rem] mx-auto h-full flex flex-col items-center justify-center">
                 <div className="mt-20 lg:w-[90%] lg:mx-auto"> 
-                    <Image src="Group6.svg" width={190} height={190} alt="image"></Image>
+                    <Image src="square.svg" width={190} height={190} alt="image"></Image>
                     <div className="relative bottom-32 left-4 lg:bottom-36 lg:left-16 z-20">
                         <h3 className="bg-gradient-to-r from-blue-500 to-sky-50 bg-clip-text text-transparent font-geist text-4xl lg:text-6xl font-bold leading-79">Get To Know About Us</h3>
                         <div className="lg:flex">
