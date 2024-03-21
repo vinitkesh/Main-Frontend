@@ -4,10 +4,8 @@ import Registration from "@/components/Registration/Registration";
 
 export default function Home() {
   return (
-    <div>
-      <Registration/>
-      <Form1/>
-      <About/>
-    </div>
+    <main>
+      <div>Hello GDSC</div>
+    </main>
   );
 }
