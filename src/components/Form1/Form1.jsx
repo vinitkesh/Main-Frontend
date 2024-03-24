@@ -113,13 +113,13 @@ export default function Form1() {
 
 
     return (
-
-        <div className="flex justify-center items-center w-screen pt-32 bg-[#292929] max-w-[110rem]">
+<div className="bg-[#292929] w-full">
+        <div className="flex flex-col justify-center items-center py-32  mx-auto max-w-[110rem]">
 
                 <div className="lg:w-[50%] w-[90%] rounded-lg  shadow shadow-blue-300">
                     <p className="text-center font-bold pt-20 text-5xl"><span>Your</span> <span className="bg-gradient-to-r from-blue-400 via-blue-100 to-amber-100 bg-clip-text text-transparent">Experience</span> <span>Matters</span></p>
-                     {/* <Form/> */}
-        <div className="w-[75%] mx-auto">
+    
+        <div className="lg:w-[75%] w-[85%] mx-auto">
             <form onSubmit={handleSubmit(onSubmit)}>
             {formFields.map((field, index) => (
                 <div key={index} className="flex flex-col  mt-10 w-full justify-center items-center mx-auto">
@@ -151,5 +151,6 @@ export default function Form1() {
 
 
             </div>
+</div>
     )   
 }

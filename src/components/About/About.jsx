@@ -23,7 +23,7 @@ const content2 = [
 
 export default function About() {
     return (
-        <div className="bg-[#292929] pb-20 min-h-screen w-full h-full flex justify-center items-center ">
+        <div className="bg-[#292929] pb-20  w-full min-h-screen flex justify-center items-center ">
             <div className="  w-[90%] lg:w-screen max-w-[110rem] mx-auto h-full flex flex-col items-center justify-center">
                 <div className="mt-20 lg:w-[90%] lg:mx-auto"> 
                     <Image src="square.svg" width={190} height={190} alt="image"></Image>
