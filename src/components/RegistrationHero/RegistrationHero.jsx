@@ -2,7 +2,7 @@ import Image from "next/image"
 
 
 
-export default function Registration1({image, tittle}) {
+export default function RegistrationHero({image, tittle}) {
     return (
         <div className=' bg-[#292929] mx-auto '>
             <div
