@@ -4,20 +4,22 @@ import Form from "./Form"
 
 export default function GetInTouch() {
     return (
-        <div className="bg-[#292929] w-full   min-h-screen ">
-            <div className="  w-[100%]  max-w-[110rem] mx-auto h-full py-10">
-                <div className="pt-20 w-[90%] lg:mx-auto">
+        <div className="bg-[#292929] pb-20  w-full min-h-screen flex justify-center items-center ">
+            <div className="  w-[90%] lg:w-screen max-w-[110rem] mx-auto h-full flex flex-col items-center justify-center">
+                <div className="mt-20 lg:w-[90%] lg:mx-auto">
                     <Image src="square.svg" width={190} height={190} alt="image"></Image>
                     <div className="relative bottom-32 left-4 lg:bottom-36 lg:left-16 z-20">
                         <h3 className="bg-gradient-to-r from-blue-500 to-sky-50 bg-clip-text text-transparent font-geist text-4xl lg:text-6xl font-bold leading-79">Get in Touch With Us</h3>
                         <div className="lg:flex">
                             <p className="text-gray-400 lg:text-lg">Drop Us a Line : <span className="bg-gradient-to-r from-blue-500 to-blue-300 bg-clip-text text-transparent">Reach Out and Get </span><span className="bg-gradient-to-r from-blue-100 to-amber-500 bg-clip-text text-transparent">Connected</span></p>
-                            <Image className="mx-2 lg:pt-3" src="Frame17.svg" width={190} height={190} alt="image"></Image>
+                            <Image className="m-2 lg:pt-3" src="Frame17.svg" width={190} height={190} alt="image"></Image>
                         </div>
                     </div>
+
                 </div>
 
-                <div className="flex flex-col lg:flex-row bg-[#323232] w-[85%] mx-auto justify-center items-center border border-[#5A5A5A] rounded-xl py-10">
+
+                <div className="flex flex-col lg:flex-row bg-[#323232] w-[98%] lg:w-[85%] mx-auto justify-center items-center border border-[#5A5A5A] rounded-xl py-10">
                     <div className="flex flex-col w-full justify-center flex-1 lg:border-r lg:border-b-0 border-b border-[#5A5A5A]">
                         <p className="bg-gradient-to-r from-yellow-500 via-amber-300 to-yellow-100 bg-clip-text text-transparent font-semibold lg:text-4xl text-center pt-10 text-3xl">Connect With Us</p>
 
@@ -53,11 +55,12 @@ export default function GetInTouch() {
 
                     <div className="flex flex-col justify-center flex-1 w-full py-10">
                         <p className="bg-gradient-to-r from-yellow-500 via-amber-300 to-yellow-100 bg-clip-text text-transparent font-semibold lg:text-4xl text-center text-3xl ">Let's Talk</p>
-                        
-                        <Form/>
+
+                        <Form />
 
                     </div>
                 </div>
+
             </div>
         </div>
     )
