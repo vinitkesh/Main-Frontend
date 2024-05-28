@@ -11,24 +11,28 @@ const formFields = [
         label: "Name",
         name: "name",   
         type: "text",
+        required: true,
         placeholder: "Enter your name",
     },
     {
         label: "Roll No.",
         name: "rollno",
         type: "text",
+        required: true,
         placeholder: "Enter your name",
     },
     {
         label: "Contact No.",
         name: "contact no",
         type: "number",
+        required: true,
         placeholder: "Enter your Contact No.",
     },
     {
         label: "Email Id",
         name: "email",
         type: "email",
+        required: true,
         placeholder: "Enter your email",
     },
     
@@ -88,9 +92,9 @@ export default function Form2() {
             ))}
              
              
-             
+             <button className="flex justify-center items-center text-center w-full bg-[#323232] h-56 rounded-md mt-10"><Image src="upload.svg" width={238} height={238} className="mx-2" alt="image"></Image></button> 
 
-            <button className="flex justify-center items-center text-center w-full bg-[#323232] h-16 rounded-md mt-10"><Image src="upload.svg" width={24} height={24} className="mx-2" alt="image"></Image>Please Upload Your Payment Reciept</button>
+            <button className="flex justify-center items-center text-center w-full bg-[#323232] h-16 rounded-md mt-10"><Image src="upload.svg" width={25} height={25} className="mx-2" alt="image"></Image>Please Upload Your Payment Reciept</button>
             
 
              <div className="flex justify-center items-center pt-10">
