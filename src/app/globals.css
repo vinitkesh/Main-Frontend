@@ -2,13 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
 
+/* Function to unshow the scrol bar */
+*{
+  -ms-overflow-style: none;
+  color: azure;
 }
-
-
 ::-webkit-scrollbar {
-  width: 0;
+  display: none;
 }
 
 body {
@@ -24,3 +25,4 @@ body {
     text-wrap: balance;
   }
 }
+
