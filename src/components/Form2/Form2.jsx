@@ -1,7 +1,7 @@
 "use client"
 
 import Image from "next/image";
-// import StarRating from "./Starrating";
+
 import { useState } from "react";
 import { useForm } from 'react-hook-form';
 
@@ -24,7 +24,7 @@ const formFields = [
     {
         label: "Contact No.",
         name: "contact no",
-        type: "number",
+        type: "text",
         required: true,
         placeholder: "Enter your Contact No.",
     },
@@ -92,7 +92,7 @@ export default function Form2() {
             ))}
              
              
-             <button className="flex justify-center items-center text-center w-full bg-[#323232] h-56 rounded-md mt-10"><Image src="upload.svg" width={238} height={238} className="mx-2" alt="image"></Image></button> 
+             <button className="flex justify-center items-center text-center w-full bg-[#323232] h-58 rounded-md mt-10"><Image src="ORcode.svg" width={238} height={238} className="mx-2" alt="image"></Image></button> 
 
             <button className="flex justify-center items-center text-center w-full bg-[#323232] h-16 rounded-md mt-10"><Image src="upload.svg" width={25} height={25} className="mx-2" alt="image"></Image>Please Upload Your Payment Reciept</button>
             
