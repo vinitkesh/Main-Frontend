@@ -3,7 +3,6 @@ import Link from "next/link"
 import Image from "next/image"
 import NavUtils from "./NavUtils"
 
-
 export default function Navbar() {
     return (
         <div className="w-full bg-[#292929] pb-1">
