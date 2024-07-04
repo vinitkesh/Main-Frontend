@@ -1,21 +1,25 @@
+import ExpCardContainer from "@/components/ExpCardContainer/ExpCardContainer";
 
-import About from "@/components/About/About";
-import Form1 from "@/components/Form1/Form1";
-import Form2 from "@/components/Form2/Form2";
-import GetInTouch from "@/components/GetInTouch/GetInTouch";
-import RegistrationHero from "@/components/RegistrationHero/RegistrationHero";
-
+import ExpandedExpCard from "@/components/ExpandedExpCard/ExpandedExpCard";
+import FeaturedExperience from "@/components/FeaturedExperience/FeaturedExperience";
 
 export default function Home() {
   return (
     <main>
-
-      <RegistrationHero image={"Desk.svg"} tittle={"Insights that Matters"} />
-      <Form1 />
-      <Form2 />
-      <About />
-      <GetInTouch />
+      <FeaturedExperience />
+      <ExpandedExpCard 
+        Name = {"Robert DJ"}
+        CTC = {"75LpA"}
+        Position1 = {"Software Engineer"}
+        Position2 = {"LTC"}
+        twitter={"https://twitter.com"}
+        linkedin={"https://linkedin.com"}
+        insta={"https://instagram.com"}
+        email={"mailto:something@gmail.com"}
+/>
+      <ExpCardContainer />
 
     </main>
   );
 }
+ 
