@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+.exp-card-container {
+    background: linear-gradient(180deg, rgba(217, 217, 217, 0.12) 0%, rgba(115, 115, 115, 0.13) 110.43%);
+
+    border: 1px solid rgba(90, 90, 90, 1);
+    box-shadow: 0px 0px 8px 0px rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+}
+
+.exp-card-container .top-container {
+    width: 100%;
+    height: 158px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.exp-card-cointainer .top-container .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px
+}
+
+.exp-card-container .circle {
+    border-radius: 100%;
+
+    background: rgba(41, 41, 41);
+
+    border: 1px solid rgba(90, 90, 90, 1);
+    box-shadow: inset 0px 0px 0px 3px rgba(255, 255, 255, 0.3);
+    box-shadow: inset 0px 0px 8px 0px rgba(255, 255, 255, 0.3);
+
+}
+
+.exp-card-container .circle .circle-in {
+    border-radius: 100%;
+
+    background: linear-gradient(180deg, rgba(217, 217, 217, 0.12) 0%, rgba(115, 115, 115, 0.13) 110.43%);
+
+    border: 1px solid rgba(90, 90, 90, 1);
+    box-shadow: 0px 0px 8px 0px rgba(255, 255, 255, 0.3);
+}
+.exp-card-container .circle :hover {
+    scale: 0.95;
+}
+
+
+.exp-card-container .img-container img {
+    border-radius: 100%;
+}
+
+.exp-card-container  p, .exp-card-container h2 {
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 16px;
+    text-align: justified;
+}
+
+.exp-card-container .details-container p {
+    font-size: 16px;
+    color: rgba(168, 168, 168, 1);
+}
+
+.exp-card-container .details-container h2 {
+    font-size: 24px;
+    color: rgba(231, 231, 231, 1);
+}
+
+.exp-card-container .bottom-container p{
+    font-family: "Red Hat Display",sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.17px;
+    text-align: justified;
+    color: rgba(168, 168, 168, 1);
+
+}
+
+.exp-card-container .bottom-container h2{
+    font-family: "Red Hat Display",sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26.46px;
+    text-align: justified;
+    color: rgba(250, 216, 105, 1);
+}
+
+

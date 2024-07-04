@@ -1,0 +1,28 @@
+.ExpCardContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 1450px){
+    .ExpCardContainer{
+        scale: 0.90;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 700px){
+    .ExpCardContainer > div{
+        padding: 0;
+        scale: 0.75;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .ExpCardContainer > div{
+        scale: 0.6;
+        padding: 0;
+        gap: 20px;
+    }
+}
