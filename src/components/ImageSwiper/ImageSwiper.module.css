@@ -1,0 +1,31 @@
+.galleryRow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 14rem; /* Adjust height as needed */
+  width: 100vw; /* Full width */
+  border-radius: 0.5rem; /* rounded-lg equivalent */
+}
+
+.swiperSlide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.smallSlide {
+  transform: scale(0.8);
+  transition: transform 0.3s ease-in-out;
+}
+.subheading{
+  background: linear-gradient(92.75deg, #0A57C3 0%, #8CB5F6 36.1%, #FFDDB7 68.81%, #FFBC72 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+@media screen and (max-width: 768px){
+  .py-12{
+    padding-top: 0;
+  }
+  
+}
