@@ -1,0 +1,18 @@
+
+ .diff-component{
+    padding: 4px 18px 4px 18px;
+    gap: 10px;
+    border-radius: 100px;
+    background: rgba(50, 50, 50, 1);
+    box-shadow: 0px 0px 8px 0px rgba(255, 255, 255, 0.1);    
+}
+
+.diff-component p{
+    font-family: "Red Hat Display",sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.17px;
+    text-align: justified;
+    color: rgba(168, 168, 168, 1);
+}
+

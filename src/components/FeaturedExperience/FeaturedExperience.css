@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+.FeaturedExperience .fet-exp p, .FeaturedExperience .fet-exp h1{
+    font-family: "Red Hat Display", sans-serif;
+}
+
+.FeaturedExperience .fet-exp h1{
+    font-weight: bold;
+}
+
+.FeaturedExperience p{
+    color: rgba(168, 168, 168, 1);
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.FeaturedExperience .fet-exp-tag{
+    font-family: 'Geist Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 59.52px;
+    text-align: justify;
+
+    background: linear-gradient(89.08deg, #2686FF 0.34%, #6CABFF 23.12%, #C9DEFF 89.44%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    src: url(https://cdn.jsdelivr.net/fontsource/fonts/geist-sans@latest/latin-400-normal.woff2) format('woff2'), url(https://cdn.jsdelivr.net/fontsource/fonts/geist-sans@latest/latin-400-normal.woff) format('woff');
+}
