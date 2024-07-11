@@ -1,4 +1,4 @@
-import RegistrationForEvent from "@/components/Events/Events2";
+import LargeLanguageModel from "@/components/Events/EventsExpanded";
 // import EventDescription from "@/components/EventDescription/EventDescription";
 // import Footer from "@/components/Footer/Footer";
 
