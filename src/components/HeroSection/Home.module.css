@@ -15,18 +15,7 @@
   position: relative;
   z-index: 1;
 }
-.mainHeading{
-  background-image: url('../../images/HeroGrid.svg');
-  background-repeat: no-repeat;
-  background-size:contain;
-  background-position: center 3.8vh;
-  /* background-position: 24vw 2rem; */
-}
-.mainHead{
-  background-image: url('../../images/HeroGrid.svg');
-  background-repeat: no-repeat;
-  
-}
+
 .pretitle {
   display: inline;
   font-size: 20px;
@@ -41,60 +30,37 @@
   background-clip: text;
 }
 
+.mainHeading {
+  background-image: url('../../images/HeroGrid.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center 3.8vh;
+}
+
 .title1 {
   color: #E7E7E7;
-  
   text-align: left;
-  padding-left: 10  rem;
-  
+  padding-left: 10rem;
   font-size: 6.6vw;
   font-weight: 700;
   letter-spacing: 0.2rem;
 }
-.rightBodyMobile{
-  display: none;
 
-}
-@media screen and (max-width: 768px){
-  .container{
-    min-height: auto;
-  }
-  .title1 {
-    font-size: 4.6rem;
-    text-align: center;
-  }
-
-}
-.wrap{
-  padding-left: 27rem;
-  padding-top: 0.6rem;
-}
 .outerwrapper {
   padding-left: 27rem;
   display: flex;
   flex-direction: row;
-  
-  
 }
-.title2,.title2b {
+
+.title2 {
   display: inline;
-  
-  /* font-size: 6.2rem; */
   font-size: 6.6vw;
   font-weight: 700;
-}
-.title2{
-  background: linear-gradient(92.75deg, #0A57C3 0%, #8CB5F6 73.1%, #fddebb 100%);
+  background: linear-gradient(92.75deg, #0A57C3 0%, #8CB5F6 36.1%, #FFDDB7 68.81%, #FFBC72 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   white-space: pre;
-}
-.title2b{
-  background: linear-gradient(92.75deg, #fddebb 0%, #FFBC72 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
 }
 
 .subtitle {
@@ -105,7 +71,36 @@
   padding-left: 12rem;
 }
 
-.socials{
+.mainHeadingMobile {
+  display: none;
+}
+
+.title1Mobile, .title3Mobile {
+  font-size: 7vh;
+  font-family: var(--font-geist-sans);
+  color: #E7E7E7;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+}
+
+.title2Mobile, .title4Mobile {
+  font-size: 8vh;
+  font-family: var(--font-geist-sans);
+  background: linear-gradient(92.75deg, #0A57C3 0%, #8CB5F6 36.1%, #FFDDB7 68.81%, #FFBC72 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+}
+
+.subtitleMobile {
+  font-size: 2.4vh;
+  font-weight: 500;
+  color: #E7E7E7;
+}
+
+.socials {
   background-image: url('../../images/getInTouchBg.svg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -113,36 +108,45 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  margin-top: 2rem; 
+  margin-top: 2rem;
   flex-direction: row;
-  /* gap: 7rem; */
-
+  gap: 2vw;
 }
+
 .description {
   font-weight: 400;
-  /* line-height: 31.75px; */
-  text-align:justify;
+  text-align: justify;
   color: #A8A8A8;
   font-family: "Red Hat Display", sans-serif;
-  /* font-size: 24px; */
   font-size: 1.6vw;
   flex-basis: 60vw;
   padding-left: 4rem;
-  /* width: 50vw; */
+  flex-grow: 2;
 }
 
+.divider {
+  margin-left: 7vw;
+  flex-grow: 1;
+}
 
+.rightBody {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
 
-.touch{
-  padding-left: 9.4rem;
+.touch {
   text-align: left;
   color: #FAD869;
   font-size: 1.6rem;
   font-weight: 500;
 }
+
 .inputContainer {
   margin-top: 1rem;
-  padding-left: 9rem;
+  padding-right: 5vw;
+  display: flex;
+  flex-direction: row;
 }
 
 .input {
@@ -151,119 +155,85 @@
   background-color: #292929;
   border: #5A5A5A 1px solid;
   border-radius: 24px 0 0 24px;
-  /* width: 305px; */
-  width: 19rem;
+  width: 20.5vw;
 }
 
 .button {
   padding: 10px 20px;
   background-color: #FAD869;
   border: none;
-  border-radius:24px;
+  border-radius: 24px;
   cursor: pointer;
   color: black;
   margin-left: -16px;
   max-height: 48px;
   min-width: 6.8rem;
-  /* min-width: 108px; */
 }
-.mainHeadingMobile {
-  display: none; /* Hide by default */
-}
-.title1Mobile,.title3Mobile{
-  font-size: 7vh;
-  font-family: var(--font-geist-sans); 
-  color: #E7E7E7;
-  font-weight: 700;
-  letter-spacing: 0.2rem;
-  /* text-align: center;
-  align-items: center; */
-}
-.title2Mobile,.title4Mobile{
-  font-size: 8vh;
-  font-family: var(--font-geist-sans); 
-  background:  linear-gradient(92.75deg, #0A57C3 0%, #8CB5F6 36.1%, #FFDDB7 68.81%, #FFBC72 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  font-weight: 700;
-  letter-spacing: 0.2rem;
-  /* text-align: center;
-  align-items: center; */
 
-}
-.descriptionMobile{
+.rightBodyMobile {
   display: none;
 }
-/* @media screen and (max-width: 900px){
-  .description
-} */
-@media screen and (max-width: 768px){
-  .mainHeading{
+
+.descriptionMobile {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    min-height: auto;
+  }
+
+  .title1 {
+    font-size: 4.6rem;
+    text-align: center;
+  }
+
+  .mainHeading {
     display: none;
   }
+
   .mainHeadingMobile {
     display: flex;
     flex-direction: column;
     align-items: center;
-   
     text-align: center;
     background-image: url('../../images/HeroGrid.svg');
     background-repeat: no-repeat;
     background-position: 0 2vh;
     background-size: 100% auto;
-    /* padding-top: 2rem; */
     padding-bottom: 2rem;
-    /* font-family: ; */
-    text-align: center;
-    /* height: 90vh; */
   }
-  .subtitleMobile{
-    font-size: 2.4vh;
-    /* font-size: 16px; */
-  font-weight: 500;
-  color: #E7E7E7;
-  
- 
-  }
-  .touch{
-    padding-left: 0;
-  }
-  .inputContainer{
-    padding-left: 0;
-  }
-  .rightBodyMobile{
+
+  .rightBodyMobile {
     display: flex;
     flex-direction: column;
     background-image: url('../../images/getInTouchMobile.svg');
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 32vh ;
+    min-height: 35vh;
     align-items: center;
     justify-content: center;
   }
-  .touch{
-    
-    text-align: left;
-  }
-  .descriptionMobile{
+
+  .descriptionMobile {
     display: block;
     font-weight: 400;
-    /* line-height: 31.75px; */
     text-align: justify;
     align-items: center;
     color: #A8A8A8;
     font-family: "Red Hat Display", sans-serif;
-    font-size: 20px;
+    font-size: 3vh;
     flex-basis: 60vw;
     padding-left: 5vw;
     padding-right: 5vw;
-    /* width: 50vw; */
+    padding-top: 2vh;
   }
-  .socials{
+
+  .socials {
     display: none;
   }
-  .input{
-    width:60vw;
+
+  .input {
+    width: 60vw;
   }
 }

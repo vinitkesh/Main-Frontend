@@ -1,10 +1,10 @@
 import React from 'react';
-// import Grid from './Grid';
+import Image from 'next/image';
 import styles from './Home.module.css';
 import Logo from './Logo/Logo';
 import { GeistSans } from 'geist/font/sans';
 import { GeistMono } from 'geist/font/mono';
-
+// import divider from '../../images/divider.svg';
 const pretitle = "|  CREATIVITY UNLOCKED  |";
 const title1 = "Google Developers";
 const title2 = "Student Clubs";
@@ -47,6 +47,7 @@ const HeroSection = () => {
         <Logo />
         <div className={styles.socials}>
           <p className={styles.description}>{description}</p>
+          <Image src="divider.svg" alt="divider" width={19.5} height={100} className='divider' />
           <div className={styles.rightBody}>
             <div className={styles.touch}>{touch}</div>
             <div className={styles.inputContainer}>
