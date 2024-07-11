@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "./Events.module.css";
 
-export default function RegistrationForEvent({ title }) {
+export default function LargeLanguageModel({ title }) {
     return (
         <div className="bg-[#292929] mx-auto h-[52.5vh]"> {/* Adjusted height */}
             <div
