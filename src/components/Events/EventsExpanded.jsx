@@ -26,9 +26,6 @@ export default function RegistrationForEvent({ title }) {
                         <Image className="hidden lg:block flex-grow mx-3" src="Arrow.svg" width={130} height={26} alt="image" />
                     </div>
                 </div>
-                <div className="mt-10 gap-4 flex justify-center items-center">
-                    <div className={styles.placeholderDiv}></div>
-                </div>
             </div>
             <div className="w-full h-2 bg-gradient-to-r from-blue-500 to-blue-100"></div>
         </div>
