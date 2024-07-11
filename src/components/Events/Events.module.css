@@ -39,3 +39,10 @@
     line-height: 2.646rem;
     text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+    .circleButton{
+        min-width: 2.71vw;
+        min-height: 2.71vw;
+    }
+}
