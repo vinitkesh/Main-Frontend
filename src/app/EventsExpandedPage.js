@@ -6,7 +6,7 @@ import LargeLanguageModel from "@/components/Events/EventsExpanded";
 export default function Home(){
     return(
         <main>
-            <RegistrationForEvent image={"Frame 93.svg"} title={"Large Language Model"}/>
+            <LargeLanguageModel title={"Large Language Model"}/>
             {/* <EventDescription/> */}
             {/* <CardContainer/> */}
             {/* <Footer/> */}
