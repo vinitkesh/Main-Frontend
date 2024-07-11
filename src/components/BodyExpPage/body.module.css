@@ -1,0 +1,86 @@
+.bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding:  10.94vh 6vw 0 0;
+    margin-bottom: -20.5vh;
+    gap: 2.19vw;
+}
+
+.inputContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.input {
+    display: flex;
+    padding: 10px;
+    padding-left: 30px;
+    background-color: #292929;
+    border: #5A5A5A 1px solid;
+    border-radius: 31px;
+    width: 25.813rem;
+    height: 10.6vh;
+    box-shadow: 0px 0px 8px 0px #FFFFFF4D;
+}
+  
+.button {
+    display: flex;
+    padding: 20px 30px;
+    background-color: #FAD869;
+    border-radius:31px;
+    cursor: pointer;
+    color: black;
+    margin-left: -21%;
+    height: 10.6vh;
+    min-width: 6.8rem;
+    font-family: "Red Hat Display";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21.17px;
+    text-align: center;
+
+}
+
+.filter{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -8.5vw;
+    width: 15.54vw;
+    height: 10.9vh;
+    gap: 1.25vw;
+    border-radius: 40px;
+    background: #323232;
+    box-shadow: 0px 0px 8px 0px #FFFFFF4D;
+    font-family: "Red Hat Display";
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 5.42vh;
+    text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+    .bar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .inputContainer {
+        justify-content: center;
+        min-width: 382px;
+        min-height: 56px;
+        margin-bottom: 16px;
+    }
+
+    .button {
+        margin-left: -21%; 
+    }
+
+    .filter {
+        min-width: 149.3px;
+        margin-right: 13vw;
+        align-self: flex-end;
+    }
+
+}
