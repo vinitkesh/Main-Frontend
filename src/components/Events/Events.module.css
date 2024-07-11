@@ -15,8 +15,8 @@
 }
 
 .circleButton {
-    width: 3.75vw;
-    height: 3.75vw;
+    width: 48px;
+    height: 48px;
     padding: 3.135vh 1.43vw 2.65vh 1.21vw;
     align-items: center;
     justify-content: center;
@@ -42,7 +42,11 @@
 
 @media screen and (max-width: 768px) {
     .circleButton{
-        min-width: 2.71vw;
-        min-height: 2.71vw;
+        min-width: 34.71px;
+        min-height: 34.71px;
+    }
+
+    .verticalTextBlock{
+        min-width: 72.32px;
     }
 }
