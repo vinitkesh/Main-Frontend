@@ -2,7 +2,7 @@
 
 .verticalTextBlock {
     width: 7.8125vw;
-    height: 56vh;
+    height: 312px;
     display: flex;
     flex-direction: column;
     align-items: center;
