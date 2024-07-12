@@ -1,23 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
 
-
 .verticalTextBlock {
     width: 7.8125vw;
-    height: 56vh;
+    height: 312px;
     display: flex;
-    padding-bottom: 3vh;
-    flex-direction: column-reverse;
+    flex-direction: column;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: flex-end;
     gap: 1.875vw;
     border-radius: 4px;
     box-shadow: 0 0 8px 0 #FFFFFF4D;
     background: #292929;
+    padding: 1rem 0;
 }
 
 .circleButton {
-    width: 3.75vw;
-    height: 8.2vh;
+    width: 48px;
+    height: 48px;
     padding: 3.135vh 1.43vw 2.65vh 1.21vw;
     align-items: center;
     justify-content: center;
@@ -26,8 +25,7 @@
     box-shadow: 0px 0px 8px 0px #FFFFFF4D;
 }
 
-.circleButton:hover
-{
+.circleButton:hover {
     transform: scale(0.98);
 }
 
@@ -42,3 +40,13 @@
     text-align: center;
 }
 
+@media screen and (max-width: 768px) {
+    .circleButton{
+        min-width: 34.71px;
+        min-height: 34.71px;
+    }
+
+    .verticalTextBlock{
+        min-width: 72.32px;
+    }
+}

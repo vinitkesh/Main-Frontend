@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "./Events.module.css";
 
-export default function RegistrationForEvent({ title }) {
+export default function LargeLanguageModel({ title }) {
     return (
         <div className="bg-[#292929] mx-auto h-[52.5vh]"> {/* Adjusted height */}
             <div
@@ -25,9 +25,6 @@ export default function RegistrationForEvent({ title }) {
                         </p>
                         <Image className="hidden lg:block flex-grow mx-3" src="Arrow.svg" width={130} height={26} alt="image" />
                     </div>
-                </div>
-                <div className="mt-10 gap-4 flex justify-center items-center">
-                    <div className={styles.placeholderDiv}></div>
                 </div>
             </div>
             <div className="w-full h-2 bg-gradient-to-r from-blue-500 to-blue-100"></div>

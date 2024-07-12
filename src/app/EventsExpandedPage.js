@@ -1,4 +1,4 @@
-import RegistrationForEvent from "@/components/Events/Events2";
+import LargeLanguageModel from "@/components/Events/EventsExpanded";
 // import EventDescription from "@/components/EventDescription/EventDescription";
 // import Footer from "@/components/Footer/Footer";
 
@@ -6,7 +6,7 @@ import RegistrationForEvent from "@/components/Events/Events2";
 export default function Home(){
     return(
         <main>
-            <RegistrationForEvent image={"Frame 93.svg"} title={"Large Language Model"}/>
+            <LargeLanguageModel title={"Large Language Model"}/>
             {/* <EventDescription/> */}
             {/* <CardContainer/> */}
             {/* <Footer/> */}
