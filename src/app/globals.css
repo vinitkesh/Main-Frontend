@@ -4,12 +4,22 @@
 
 
 /* Function to unshow the scrol bar */
-*{
-  -ms-overflow-style: none;
+html{
+  /* -ms-overflow-style: none; */
   color: azure;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+
+  max-width: 100vw;
+  overflow-x: hidden;
+
+}
+
+*{
+  /* -ms-overflow-style: none; */
+  color: azure;
+  margin: 0;
+  padding: 0;
 }
 ::-webkit-scrollbar {
   display: none;

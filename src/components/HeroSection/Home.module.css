@@ -101,16 +101,19 @@
 }
 
 .socials {
-  background-image: url('../../images/getInTouchBg.svg');
+  /* background-image: url('../../images/getInTouchBg.svg'); */
   background-repeat: no-repeat;
   background-size: cover;
   height: 12rem;
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  margin-top: 2rem;
+  margin: 2rem 0;
   flex-direction: row;
   gap: 2vw;
+
+  border-bottom:  1px solid #5A5A5A;
+  border-top:  1px solid #5A5A5A;
 }
 
 .description {
@@ -213,6 +216,8 @@
     min-height: 35vh;
     align-items: center;
     justify-content: center;
+
+    width: 100%;
   }
 
   .descriptionMobile {
@@ -224,9 +229,12 @@
     font-family: "Red Hat Display", sans-serif;
     font-size: 3vh;
     flex-basis: 60vw;
-    padding-left: 5vw;
-    padding-right: 5vw;
+    padding : 0 5vw ;
     padding-top: 2vh;
+
+    max-width: 100vw;
+
+    width: 100%;
   }
 
   .socials {

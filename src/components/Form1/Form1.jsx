@@ -1,7 +1,7 @@
 "use client"
 
 import Image from "next/image";
-import StarRating from "./Starrating";
+// import StarRating from "./Starrating";
 import { useState } from "react";
 import { useForm } from 'react-hook-form';
 
@@ -179,7 +179,7 @@ export default function Form1() {
                                             <Formbutton />
                                         </div>
                                         <p className='text-white text-lg pt-10'>Rate Your Experience</p>
-                                        <StarRating rating={rating} onRatingChange={handleRatingChange} />
+                                        
                                     </div>
                                 </div>
                                 <div className="w-[86%] mx-auto">

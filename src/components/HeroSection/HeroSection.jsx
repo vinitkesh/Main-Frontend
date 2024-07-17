@@ -35,7 +35,7 @@ const HeroSection = () => {
 
           <h2 className={styles.subtitle}>{subtitle}</h2>
         </div>
-        <div className={styles.mainHeadingMobile}>
+        <div className={ `max-w-full ${styles.mainHeadingMobile} ` }>
           <h1 className={styles.title1Mobile}>{title1Mob}</h1>
           <h1 className={styles.title2Mobile}>{title2Mob}</h1>
           <h1 className={styles.title3Mobile}>{title3Mob} </h1>
@@ -47,7 +47,7 @@ const HeroSection = () => {
         <Logo />
         <div className={styles.socials}>
           <p className={styles.description}>{description}</p>
-          <Image src="divider.svg" alt="divider" width={19.5} height={100} className='divider' />
+          <Image src="divider.svg" alt="divider" width={19.5} height={100} className='divider z-10' />
           <div className={styles.rightBody}>
             <div className={styles.touch}>{touch}</div>
             <div className={styles.inputContainer}>
